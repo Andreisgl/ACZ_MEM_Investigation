@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="45">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>12795</ID>
+      <Description>"Glacial Skies (Free Flight Only?)"</Description>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>12713</ID>
+          <Description>"EastWest (WEST-, EAST+)"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>20401360</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12768</ID>
+          <Description>"North/South (NORTH-, SOUTH+)"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>20401368</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12769</ID>
+          <Description>"Altitude, but strange?"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>20401364</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12772</ID>
+          <Description>"???"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>2040136C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12766</ID>
+          <Description>"COMPASS (WEST=1, EAST=-1)"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>20401380</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12767</ID>
+          <Description>"Elevation (DOWN=-1, UP=1)"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>20401384</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12773</ID>
+          <Description>"Afterburner2"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>2040139C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12765</ID>
+          <Description>"Afterburner"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>204013BC</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12770</ID>
+          <Description>"Pointer?"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>305D07A8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12771</ID>
+          <Description>"Pointer2?"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>305D07AC</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12774</ID>
+          <Description>"mission afterburners"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2040153C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12775</ID>
+          <Description>"mission changes with yaw"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>20401670</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12776</ID>
+          <Description>"mission compass"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>20401500</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12777</ID>
+          <Description>"mission compass ???"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>20401580</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12778</ID>
+          <Description>"GUN AMMO"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>2147E700</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12779</ID>
+          <Description>"MSSL AMMO"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2147E704</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12780</ID>
+          <Description>"MSSL/SpW cooldown 1 L HUD related"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>2147E710</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12781</ID>
+          <Description>"MSSL/SpW cooldown 2 R HUD related"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>2147E714</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12782</ID>
+          <Description>"HEALTH???"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>2147E70C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12783</ID>
+          <Description>"speed"</Description>
+          <VariableType>Float</VariableType>
+          <Address>2147FF88</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12784</ID>
+          <Description>"altitude (true to HUD)"</Description>
+          <VariableType>Float</VariableType>
+          <Address>2147FFB8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12785</ID>
+          <Description>"SpW ammo"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2147E708</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12786</ID>
+          <Description>"maybe altitude???no"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2147F884</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12787</ID>
+          <Description>"related to roll?no"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2147F817</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12789</ID>
+          <Description>"related to map??"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>2147D3C4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12791</ID>
+          <Description>"NEW GUN"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>2147E700</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12794</ID>
+          <Description>"North/South (N-, S+)"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>2147D3C8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12788</ID>
+          <Description>"East/West (W-, E+)"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>2147D3C0</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>12796</ID>
+      <Description>"Annex (Free Flight Only?)"</Description>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>12797</ID>
+          <Description>"GUN AMMO"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>214866B0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12798</ID>
+          <Description>"MSSL AMMO"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>214866B4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12799</ID>
+          <Description>"SpW AMMO (SAAM)"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>214866B8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12800</ID>
+          <Description>"Speed"</Description>
+          <VariableType>Float</VariableType>
+          <Address>21487F38</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12801</ID>
+          <Description>"this just counts up"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>21480F13</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12802</ID>
+          <Description>"this just counts up 2"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>21480F3C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12803</ID>
+          <Description>"1North/South (N-, S+)"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>21486868</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12804</ID>
+          <Description>"1East/West (W-, E+)"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>21486860</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12805</ID>
+          <Description>"Accel/Decel input"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>21487F9C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12806</ID>
+          <Description>"== 1 when accel input"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>21487FA0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12807</ID>
+          <Description>"Rudder bit (L=1, R=0)"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>21488061</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12808</ID>
+          <Description>"Rudder when moves"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>21488060</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12809</ID>
+          <Description>"Elevation Degrees HUD"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>21488094</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12810</ID>
+          <Description>"stall1?"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>21488058</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12811</ID>
+          <Description>"stall2?"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>2148805C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12812</ID>
+          <Description>"stall3?"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>21488088</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12813</ID>
+          <Description>"stall4?"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>2148808C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12814</ID>
+          <Description>"related to roll. (Nan when level)"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>214880A3</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12815</ID>
+          <Description>"roll angle 2 (upsidedown = -1)"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>214880A4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12816</ID>
+          <Description>"2East/West (W-, E+)"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>21488100</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12817</ID>
+          <Description>"smt aligned to Esat/West"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>21488104</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12818</ID>
+          <Description>"3East/West (W-, E+)"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>21488490</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12819</ID>
+          <Description>"2North/South (N-, S+) (deviates a bit from 1)"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>21488498</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12820</ID>
+          <Description>"3North/South (N-, S+) (equal to 2)"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>214884C8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12821</ID>
+          <Description>"relatedtoElevation"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>214884A0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12822</ID>
+          <Description>"Compass * 3,14"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>214884A4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12823</ID>
+          <Description>"2Compass * 3,14"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>214884D4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12824</ID>
+          <Description>"2relatedtoElevation"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>214884D0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12825</ID>
+          <Description>"relatedtotimerEnd???"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>214884A8</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
