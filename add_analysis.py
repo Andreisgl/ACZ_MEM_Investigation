@@ -31,29 +31,18 @@ for index, line in enumerate(workset):
         workset = workset[index:]
         break
 
+workset = workset[:-2]
+
 # Identify single entries
 def get_entry_rec(data): # This function is recursive
     output_list = []
     skip_to_next = False
 
     for index, line in enumerate(data):
-        if (line.strip(' ') == all_entries_start_flag
-            or line.strip(' ') == entry_start_flag): # A new level starts
-
-            child = get_entry_rec(data[index+1:])
-            output_list.append(child)
-            skip_to_next = True
-        elif (line.strip(' ') == all_entries_end_flag
-            or line.strip(' ') == entry_end_flag): # The new level ends
-            
-            skip_to_next = False
-            return output_list
-        
-        if skip_to_next:
-            continue
-
         output_list.append(line)
     
+    
+
     return output_list # Return this entry's data
 
             
