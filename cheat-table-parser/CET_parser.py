@@ -1,4 +1,5 @@
 import xml.etree.ElementTree as ET
+import csv
 
 def parse_cheat_table(file_path):
     tree = ET.parse(file_path)
@@ -46,6 +47,27 @@ def print_entries(entries, level=0):
 # Print the parsed entries with hierarchy
 print_entries(entries)
 
+
+
+
+
+
+
+workset = entries[1]['Children'][0]['Children']
+
+out_file = 'tables.csv'
+with open(out_file, 'w', newline='') as file:
+    csvwriter = csv.writer(file, quoting=csv.QUOTE_MINIMAL)
+
+    for entry in workset:
+        data = (
+            entry['ID'],
+            entry['Description'],
+            entry['VariableType'],
+            entry['Address'],
+        )
+        csvwriter.writerow(data)
+    
 
 
 pass
