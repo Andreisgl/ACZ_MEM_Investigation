@@ -1,0 +1,29 @@
+12797,"""GUN AMMO""",2 Bytes,214866B0
+12798,"""MSSL AMMO""",Byte,214866B4
+12799,"""SpW AMMO (SAAM)""",Byte,214866B8
+12800,"""Speed""",Float,21487F38
+12801,"""this just counts up""",Byte,21480F13
+12802,"""this just counts up 2""",4 Bytes,21480F3C
+12803,"""1North/South (N-, S+)""",Float,21486868
+12804,"""1East/West (W-, E+)""",Float,21486860
+12805,"""Accel/Decel input""",Float,21487F9C
+12806,"""== 1 when accel input""",Byte,21487FA0
+12807,"""Rudder bit (L=1, R=0)""",Byte,21488061
+12808,"""Rudder when moves""",Byte,21488060
+12809,"""Elevation Degrees HUD""",Float,21488094
+12810,"""stall1?""",4 Bytes,21488058
+12811,"""stall2?""",4 Bytes,2148805C
+12812,"""stall3?""",4 Bytes,21488088
+12813,"""stall4?""",4 Bytes,2148808C
+12814,"""related to roll. (Nan when level)""",Float,214880A3
+12815,"""roll angle 2 (upsidedown = -1) (Changing this impacts the scale of the horizon angle lines!!)""",Float,214880A4
+12816,"""2East/West (W-, E+)""",Float,21488100
+12817,"""smt aligned to Esat/West""",Float,21488104
+12818,"""3East/West (W-, E+)""",Float,21488490
+12819,"""2North/South (N-, S+) (deviates a bit from 1) (Has authority over its 3rd instance. 3rd instance cant change it)""",Float,21488498
+12820,"""3North/South (N-, S+) (equal to 2)""",Float,214884C8
+12821,"""relatedtoElevation""",Float,214884A0
+12822,"""Compass * 3,14""",Float,214884A4
+12823,"""2Compass * 3,14""",Float,214884D4
+12824,"""2relatedtoElevation""",Float,214884D0
+12825,"""relatedtotimerEnd???""",4 Bytes,214884A8
