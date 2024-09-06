@@ -451,6 +451,7 @@
             <CheatEntry>
               <ID>12810</ID>
               <Description>"stall1?"</Description>
+              <ShowAsHex>1</ShowAsHex>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>4 Bytes</VariableType>
               <Address>21488058</Address>
@@ -458,6 +459,7 @@
             <CheatEntry>
               <ID>12811</ID>
               <Description>"stall2?"</Description>
+              <ShowAsHex>1</ShowAsHex>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>4 Bytes</VariableType>
               <Address>2148805C</Address>
@@ -465,6 +467,7 @@
             <CheatEntry>
               <ID>12812</ID>
               <Description>"stall3?"</Description>
+              <ShowAsHex>1</ShowAsHex>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>4 Bytes</VariableType>
               <Address>21488088</Address>
@@ -472,6 +475,7 @@
             <CheatEntry>
               <ID>12813</ID>
               <Description>"stall4?"</Description>
+              <ShowAsHex>1</ShowAsHex>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>4 Bytes</VariableType>
               <Address>2148808C</Address>
@@ -638,6 +642,14 @@
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
       <Address>2113ACD4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>12860</ID>
+      <Description>"Seems related to pitch speed"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>21488064</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
