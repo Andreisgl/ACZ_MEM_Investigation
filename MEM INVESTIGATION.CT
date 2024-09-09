@@ -211,6 +211,76 @@
       </CheatEntries>
     </CheatEntry>
     <CheatEntry>
+      <ID>12861</ID>
+      <Description>"General Technical stuff"</Description>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>12862</ID>
+          <Description>"Deinterlacing Addresses"</Description>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>12863</ID>
+              <Description>"1 - disabled 24020003/ enabled 24020001"</Description>
+              <ShowAsHex>1</ShowAsHex>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>4 Bytes</VariableType>
+              <Address>202F9A14</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>12864</ID>
+              <Description>"2 - disabled FCC20000/ enabled 0C03FFF0"</Description>
+              <ShowAsHex>1</ShowAsHex>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>4 Bytes</VariableType>
+              <Address>202F9D58</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>12865</ID>
+              <Description>"3 - disabled 00000000 / enabled 341B9070"</Description>
+              <ShowAsHex>1</ShowAsHex>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>4 Bytes</VariableType>
+              <Address>200FFFC0</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>12866</ID>
+              <Description>"4 - disabled 00000000 / enabled 145B0002"</Description>
+              <ShowAsHex>1</ShowAsHex>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>4 Bytes</VariableType>
+              <Address>200FFFC4</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>12867</ID>
+              <Description>"5 - disabled 00000000 / enabled 34029000"</Description>
+              <ShowAsHex>1</ShowAsHex>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>4 Bytes</VariableType>
+              <Address>200FFFCC</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>12868</ID>
+              <Description>"6 - disabled 00000000 / enabled FCC20000"</Description>
+              <ShowAsHex>1</ShowAsHex>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>4 Bytes</VariableType>
+              <Address>200FFFD0</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>12869</ID>
+              <Description>"7 - disabled 00000000 / enabled 03E00008"</Description>
+              <ShowAsHex>1</ShowAsHex>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>4 Bytes</VariableType>
+              <Address>200FFFD4</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
       <ID>12837</ID>
       <Description>"VS STAGES"</Description>
       <GroupHeader>1</GroupHeader>
@@ -301,13 +371,70 @@
               </CheatEntries>
             </CheatEntry>
             <CheatEntry>
+              <ID>12854</ID>
+              <Description>"P1 related to pitch +=1.5"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>2113ACE0</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>12857</ID>
+              <Description>"P1 NorthSouth?"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>2113ACD8</Address>
+            </CheatEntry>
+            <CheatEntry>
               <ID>12852</ID>
               <Description>"Time Remaining"</Description>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>2113AE88</Address>
             </CheatEntry>
+            <CheatEntry>
+              <ID>12855</ID>
+              <Description>"P1 Compass sine/cosine * 3.14"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>2113ACE4</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>12858</ID>
+              <Description>"P1 East West"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>2113ACD0</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>12859</ID>
+              <Description>"p1 pos?"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>2113ACD4</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>12860</ID>
+              <Description>"Seems related to pitch speed"</Description>
+              <ShowAsHex>1</ShowAsHex>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Byte</VariableType>
+              <Address>21488064</Address>
+            </CheatEntry>
           </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12856</ID>
+          <Description>"direction 3?"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>2113ACE8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12853</ID>
+          <Description>"1north south?"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>2113ACD8</Address>
         </CheatEntry>
       </CheatEntries>
     </CheatEntry>
@@ -593,63 +720,6 @@
           </CheatEntries>
         </CheatEntry>
       </CheatEntries>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>12853</ID>
-      <Description>"1north south?"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Float</VariableType>
-      <Address>2113ACD8</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>12854</ID>
-      <Description>"P1 related to pitch +=1.5"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Float</VariableType>
-      <Address>2113ACE0</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>12855</ID>
-      <Description>"P1 Compass sine/cosine * 3.14"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Float</VariableType>
-      <Address>2113ACE4</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>12856</ID>
-      <Description>"direction 3?"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Float</VariableType>
-      <Address>2113ACE8</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>12857</ID>
-      <Description>"P1 NorthSouth?"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Float</VariableType>
-      <Address>2113ACD8</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>12858</ID>
-      <Description>"P1 East West"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Float</VariableType>
-      <Address>2113ACD0</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>12859</ID>
-      <Description>"p1 pos?"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Float</VariableType>
-      <Address>2113ACD4</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>12860</ID>
-      <Description>"Seems related to pitch speed"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>21488064</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
