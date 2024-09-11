@@ -1,3 +1,6 @@
+# This is my invastigation into ACZ's memory!
+
+## Controller communication
 While reading about PS2 controller interface (https://hackaday.io/project/170365-blueretro/log/186471-playstation-playstation-2-spi-interface), I learned that rumble state is determined by a byte.
 
 
@@ -20,3 +23,16 @@ source: (https://hackaday.io/project/170365-blueretro/log/186471-playstation-pla
 
 
     Idea for disassembly: Since I know the memory addresses to change to disable interlacing, I could use ghidra to analyse them and find something. I should also find in what .dat file they are stored so I can find their location and use ghidra.
+
+
+## Gamestate/Freelook byte - ACZ Multiplayer mod
+At the address 0x20765231, a byte toogles gamestgates as follows:
+    0x00 = debug mode,
+    0x02 = normal gameplay,
+    0xFF during menu, briefing and aircraft selection, changes to 0x00 at loading
+
+As a way to detect changes in game state, mainly when the game has started or is on the menus, I should:
+
+1. Add a breakpoint to this address and records the intructions that alter it.
+1. From then, work my way back into memory and assembly, so to pass this data to my future multiplayer mod. It will help detect changes in game state and determine if a match can start.
+1. If I could know which mission and stage is currently being played, it would be even better, as a automatic matchmake can be done.
