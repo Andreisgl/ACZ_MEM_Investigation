@@ -1,0 +1,10 @@
+todos desativados: FFFF - 1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 - L D R U St R3 L3 Se | □ X O △ R1 L1 R2 L2
+
+Esquerdo ligado:   7FFF - 0 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1
+Baixo ligado:      BFFF - 1 0 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1
+Direito ligado:    DFFF - 1 1 0 1 1 1 1 1 | 1 1 1 1 1 1 1 1
+Cima ligado:       EFFF - 1 1 1 0 1 1 1 1 | 1 1 1 1 1 1 1 1
+
+Quadrado ligado:   FF7F - 1 1 1 1 1 1 1 1 | 0 1 1 1 1 1 1 1
+X ligado:          FFBF - 1 1 1 1 1 1 1 1 | 1 0 1 1 1 1 1 1
+Bolinha ligada:    FFDF - 1 1 1 1 1 1 1 1 | 1 1 0 1 1 1 1 1
